@@ -2,6 +2,8 @@ package helloworld.model;
 public class HelloWorld {
     private String message;
     private String dateTime;
+    
+    
     public String getMessage() {
         return message;
     }
