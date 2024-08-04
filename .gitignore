@@ -5,3 +5,5 @@ target/
 .settings/
 .project
 .DS_Store
+
+.fake
