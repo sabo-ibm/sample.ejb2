@@ -3,7 +3,7 @@ import java.time.LocalDateTime;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import net.javaguides.springmvc.helloworld.model.HelloWorld;
+import helloworld.model.HelloWorld;
 /**
  * @author Ramesh Fadatare
  */
