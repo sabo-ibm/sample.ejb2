@@ -41,6 +41,13 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>	
 
+		<dependency>
+			<groupId>hello-world</groupId>
+			<artifactId>hello-world-spring5</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>war</type>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>hello-world</finalName>
