@@ -78,6 +78,12 @@
 							<contextRoot>/hello-world</contextRoot>
 							<bundleFileName>hello-world-web.war</bundleFileName>
 						</webModule>
+						<webModule>
+							<groupId>hello-world</groupId>
+							<artifactId>hello-world-spring5</artifactId>
+							<contextRoot>/spring5</contextRoot>
+							<bundleFileName>hello-world-spring5.war</bundleFileName>
+						</webModule>
 						<ejbModule>
 							<groupId>hello-world</groupId>
 							<artifactId>hello-world-ejb</artifactId>
