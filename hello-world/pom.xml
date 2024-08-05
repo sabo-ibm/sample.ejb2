@@ -11,34 +11,37 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>hello-world</artifactId>
 	<packaging>ear</packaging>
-<!--
+
 	<dependencies>
-		<dependency>
-			<groupId>hello-world</groupId>
-			<artifactId>hello-world-ejb-client</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>hello-world</groupId>
-			<artifactId>hello-world-ejb</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<type>ejb</type>
-		</dependency>
+	
 		<dependency>
 			<groupId>hello-world</groupId>
 			<artifactId>hello-world-web</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
+		
+		<dependency>
+			<groupId>hello-world</groupId>
+			<artifactId>hello-world-ejb</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency>
+
 		<dependency>
 			<groupId>hello-world</groupId>
 			<artifactId>hello-world-client</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<type>app-client</type>
 		</dependency>
+		
+		<dependency>
+			<groupId>hello-world</groupId>
+			<artifactId>hello-world-ejb-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>	
 
 	</dependencies>
--->
 	<build>
 		<finalName>hello-world</finalName>
 		<plugins>

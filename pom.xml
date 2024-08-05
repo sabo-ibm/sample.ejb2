@@ -19,6 +19,7 @@
 		<module>hello-world-web</module>
 		<module>hello-world-client</module>
 		<module>hello-world</module>
+		<module>hello-world-spring5</module>
 	</modules>
 
 	<dependencies>

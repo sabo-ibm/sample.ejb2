@@ -44,4 +44,8 @@ public class HelloWorldBean implements SessionBean {
 	public void ejbPassivate() throws EJBException, RemoteException {
 		// TODO Auto-generated method stub
 	}
+	
+	public void ejbCreate() throws EJBException {
+		// TODO Added due maven warning message
+	}
 }
