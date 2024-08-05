@@ -19,7 +19,8 @@
 		<module>hello-world-web</module>
 		<module>hello-world-client</module>
 		<module>hello-world</module>
-		<module>hello-world-spring5</module>
+		<module>hello-world-spring</module>
+		<module>hello-world-spring-ejb</module>
 	</modules>
 
 	<dependencies>

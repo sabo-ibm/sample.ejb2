@@ -43,7 +43,14 @@
 
 		<dependency>
 			<groupId>hello-world</groupId>
-			<artifactId>hello-world-spring5</artifactId>
+			<artifactId>hello-world-spring</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>war</type>
+		</dependency>
+		
+		<dependency>
+			<groupId>hello-world</groupId>
+			<artifactId>hello-world-spring-ejb</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
@@ -80,9 +87,15 @@
 						</webModule>
 						<webModule>
 							<groupId>hello-world</groupId>
-							<artifactId>hello-world-spring5</artifactId>
+							<artifactId>hello-world-spring</artifactId>
 							<contextRoot>/spring5</contextRoot>
 							<bundleFileName>hello-world-spring5.war</bundleFileName>
+						</webModule>
+						<webModule>
+							<groupId>hello-world</groupId>
+							<artifactId>hello-world-spring-ejb</artifactId>
+							<contextRoot>/spring</contextRoot>
+							<bundleFileName>hello-world-spring.war</bundleFileName>
 						</webModule>
 						<ejbModule>
 							<groupId>hello-world</groupId>
