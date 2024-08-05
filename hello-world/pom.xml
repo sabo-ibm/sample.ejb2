@@ -20,26 +20,6 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
-		
-		<dependency>
-			<groupId>hello-world</groupId>
-			<artifactId>hello-world-ejb</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<type>ejb</type>
-		</dependency>
-
-		<dependency>
-			<groupId>hello-world</groupId>
-			<artifactId>hello-world-client</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<type>app-client</type>
-		</dependency>
-		
-		<dependency>
-			<groupId>hello-world</groupId>
-			<artifactId>hello-world-ejb-client</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>	
 
 		<dependency>
 			<groupId>hello-world</groupId>
@@ -54,6 +34,27 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
+		
+		<dependency>
+			<groupId>hello-world</groupId>
+			<artifactId>hello-world-ejb</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency>
+
+		<dependency>
+			<groupId>hello-world</groupId>
+			<artifactId>hello-world-ejb-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>	
+
+		<dependency>
+			<groupId>hello-world</groupId>
+			<artifactId>hello-world-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>app-client</type>
+		</dependency>
+		
 
 	</dependencies>
 	<build>
@@ -88,31 +89,36 @@
 						<webModule>
 							<groupId>hello-world</groupId>
 							<artifactId>hello-world-spring</artifactId>
-							<contextRoot>/spring5</contextRoot>
-							<bundleFileName>hello-world-spring5.war</bundleFileName>
+							<contextRoot>/spring</contextRoot>
+							<bundleFileName>hello-world-spring.war</bundleFileName>
 						</webModule>
 						<webModule>
 							<groupId>hello-world</groupId>
 							<artifactId>hello-world-spring-ejb</artifactId>
-							<contextRoot>/spring</contextRoot>
-							<bundleFileName>hello-world-spring.war</bundleFileName>
+							<contextRoot>/springejb</contextRoot>
+							<bundleFileName>hello-world-spring-ejb.war</bundleFileName>
 						</webModule>
+						
+						
 						<ejbModule>
 							<groupId>hello-world</groupId>
 							<artifactId>hello-world-ejb</artifactId>
 							<bundleFileName>hello-world-ejb.jar</bundleFileName>
 						</ejbModule>
+						
 						<appClientModule>
 							<groupId>hello-world</groupId>
 							<artifactId>hello-world-client</artifactId>
 							<bundleFileName>hello-world-client.jar</bundleFileName>
 						</appClientModule>
+						
 						<ejbClientModule>
 							<groupId>hello-world</groupId>
 							<artifactId>hello-world-ejb-client</artifactId>
 							<bundleFileName>hello-world-ejb-client.jar</bundleFileName>
 							<type>jar</type>
 						</ejbClientModule>
+						
 					</modules>
 				</configuration>
 			</plugin>
