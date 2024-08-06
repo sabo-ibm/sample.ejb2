@@ -1,4 +1,4 @@
-package hello_world.hello_world_spring_ejb;
+package hello_world_springejb.hello_world_spring_ejb;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

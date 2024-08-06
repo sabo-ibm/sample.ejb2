@@ -32,6 +32,6 @@
         Escanéa el Classpath en búsqueda de anotaciones como @Component, @Repository, @Service,
         @Controller, etc.
     -->
-    <context:component-scan base-package="hello_world.hello_world_spring_ejb" />
+    <context:component-scan base-package="hello_world_springejb.*" />
 
 </beans:beans>
